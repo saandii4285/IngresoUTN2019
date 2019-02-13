@@ -10,7 +10,7 @@ function Sumar ()
  var precio3;
  var suma;
 
-precio1 =parseFloat(docuemet.getElementById("PrecioUno").value);
+precio1 =parseFloat(document.getElementById("PrecioUno").value);
 precio2 =parseFloat(document.getElementById("PrecioDos").value);
 precio3 =parseFloat(document.getElementById("PrecioTres").value);
 suma = precio1 + precio2 + precio3;
@@ -48,9 +48,9 @@ function PrecioFinal ()
 precio1 = parseFloat(document.getElementById("PrecioUno").value);
 precio2 = parseFloat(document.getElementById("PrecioDos").value);
 precio3 = parseFloat(document.getElementById("PrecioTres").value);
-importeFInal = precio1 + precio2 + precio3;
-iva = importefinal *21 / 100
-importeconiva = importefinal + iva;
+importeFinal = precio1 + precio2 + precio3;
+iva = importeFinal *21 / 100;
+importeconiva = importeFinal + iva;
 alert("el resultado final es $ " + importeconiva);
 
 
