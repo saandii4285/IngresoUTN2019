@@ -33,8 +33,8 @@ var contrapiso
 anchoTerreno = parseInt(document.getElementById("Ancho").value);
 largoTerreno = parseInt(document.getElementById("Largo").value);
 
-contrapiso = (anchoTerreno+largoTerreno)
-cal = contrapiso / 3
+contrapiso = (anchoTerreno+largoTerreno);
+cal = (contrapiso / 3).toFixed(0);
 cemento = contrapiso / 2
 
 alert ("Usted necesita "+cal+" bolsas de cal y "+cemento+" bolsas de cemento" );
