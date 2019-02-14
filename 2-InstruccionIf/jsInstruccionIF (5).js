@@ -4,17 +4,10 @@ function Mostrar()
 var edad
 edad = parseInt(document.getElementById("edad").value);
 
-if (edad >18) {
+if (edad <12 || edad >17 ) {
 
     alert("Usted no es adolecente");
 
-} else if (edad <13) {
-
-    alert("Usted todavia no es adolecente");
-
-} else {
-
-    alert("Usted es adolecente");
 }
 
     
