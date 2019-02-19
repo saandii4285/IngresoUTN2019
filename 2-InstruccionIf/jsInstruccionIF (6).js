@@ -5,32 +5,22 @@ var edad;
 
 edad = parseInt(document.getElementById("edad").value);
 
-if( edad >=18 )
+if ( edad >= 13 && edad <= 17 )
 {
-
-alert("es mayor de edad");
-
+    alert("Usted es adolescente");
 }
 
-var edad;
-
-edad = parseInt(document.getElementById("edad").value);
-
-if( edad >= 13 && edad <= 17 )
+if ( edad < 13)
 
 {
-
-alert("Es adolescente");
-
+    alert("Usted es un niño");
 }
 
-var edad;
+if ( edad >= 18 )
 
-edad = parseInt(document.getElementById("edad").value);
-
-if( edad < 13 )
 {
-    alert("Usted es un niño";)
+    alert("Usted es mayor");
+
 }
 
 
