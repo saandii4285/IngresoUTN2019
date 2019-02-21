@@ -36,7 +36,6 @@ else {
     descuento = precio * 30 / 100;
     alert(" 5 lamparas y no es Argentina Luz");
 }
-}
 else if(cantidad == 4){
       if (marca == "ArgentinaLuz" || marca == "FelipeLamparas") {
         descuento = precio * 25 / 100;
@@ -49,15 +48,14 @@ else if(cantidad == 4){
     
 }
 else if(cantidad == 3){
+    if(marca==)
 
 }
 
     
-}
+
 else{
      descuento = 0;
-
-    
 }    
     
 
